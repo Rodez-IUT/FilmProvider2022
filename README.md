@@ -1,7 +1,7 @@
 # DUT Info2 - FilmProvider
 
-### NOM : DOE
-### Prénom : John
+### NOM : 
+### Prénom : 
 ### Groupe de TP : 
 - [x] 1
 - [ ] 2
@@ -15,7 +15,7 @@ Rappel pour configurer Git lors d’un premier usage sur une machine de travail 
     git config --global user.name "Your Username"
     git config --global user.email "Your email"
     git config --global color.ui "auto"
-	git config —-global http.proxy "http://cache.iut-rodez.fr:8080"
+	git config —-global http.proxy "http://cache.iut-rodez.fr:8080"  # uniquement pour les machines de l'IUT
     git config --global -l
 
 Créez votre projet sur Github en vous inscrivant au devoir indiqué par votre enseignant.  
@@ -26,6 +26,8 @@ Commitez et pushez  dans votre dépôt distant en utilisant le message de commit
 
 > fix #0 Activité préliminaire terminée
 
-Dans la suite de ce document, à chaque fois que vous trouverez un énoncé commençant par “fix #...”, vous devez committer et pusher les modifications sur votre dépôt distant en utilisant comme message de commit cet énoncé.
+Dans la suite de ce document, à chaque fois que vous trouverez un énoncé commençant par “fix #...”, vous devez committer 
+et pusher les modifications sur votre dépôt distant en utilisant comme message de commit cet énoncé.
 
-Les corrections des activités suivantes seront transmises au fil de l’eau ; elles seront disponibles dans les différentes branches du projet Github suivant : https://github.com/Rodez-IUT/dut-info2-FilmProvider 
+Les corrections des activités suivantes seront transmises au fil de l’eau ; elles seront disponibles dans les différentes 
+branches du projet Github suivant : https://github.com/Rodez-IUT/FilmProvider2022 
