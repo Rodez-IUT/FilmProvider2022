@@ -17,15 +17,20 @@
 > //film[position() = 2]/titre  
 > //film[2]/titre
 
-5. Sélectionner les titres des films pour lesquels une image est disponible.
+5. Sélectionner la position dans l'ordre du document des films dont le texte du résumé contient le mot « mafia ».
+
+Pas possible hors XSLT.
+
+6. Sélectionner les titres des films pour lesquels une image est disponible.
 
 > //film[boolean(resume/image) = true()]/titre  
 > //film[boolean(resume/image)]/titre
+> //film[resume/image]/titre
 
-6. Sélectionner les dates des films de Scorcese.
+7. Sélectionner les dates des films de Scorcese.
 
 > //film[@id_realisateur = //realisateur[nom="Scorsese"]/@id_realisateur]/@annee
 
-7. Retourner le nombre de films sortis en 2003.
+8. Retourner le nombre de films sortis en 2003.
 
 > count(//film[@annee = 2003])
