@@ -10,6 +10,7 @@
 
 3. Sélectionner le nom du dernier réalisateur dans l'ordre du document.
 
+> //realisateur[position() = last()]/nom
 > //realisateur[last()]/nom
 
 4. Sélectionner le titre du deuxième film dans l'ordre du document.
@@ -27,7 +28,7 @@ Pas possible hors XSLT.
 > //film[boolean(resume/image)]/titre
 > //film[resume/image]/titre
 
-7. Sélectionner les dates des films de Scorcese.
+7. Sélectionner les dates des films de Scorsese.
 
 > //film[@id_realisateur = //realisateur[nom="Scorsese"]/@id_realisateur]/@annee
 
